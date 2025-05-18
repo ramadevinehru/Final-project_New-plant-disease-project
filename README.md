@@ -15,10 +15,10 @@ The system combines **computer vision**, **transfer learning**, and an **interac
 
 - **Disease Classification**  
   Classifies plant leaf images into one of **38 disease classes** using:
-  - ✅ Custom CNN  
-  - ✅ ResNet50  
-  - ✅ EfficientNet  
-  - ✅ DenseNet  
+  - Custom CNN  
+  - ResNet50  
+  - EfficientNet  
+  - DenseNet  
 
 - **Model Selection**  
   Choose between custom or pretrained models for prediction.
@@ -34,7 +34,7 @@ The system combines **computer vision**, **transfer learning**, and an **interac
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python  
 - PyTorch  
@@ -73,7 +73,7 @@ pip install torch torchvision opencv-python matplotlib streamlit tqdm
 
 ---
 
-## 🚦 Usage
+## Usage
 
 ### Train the Model:
 ```bash
