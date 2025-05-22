@@ -4,7 +4,7 @@
 ## Overview  
 This project is a **Plant Disease Detection System** built using **Python, PyTorch, OpenCV**, and **Streamlit**. It allows users to upload a plant leaf image through a web interface and accurately detect the disease class using either a **custom CNN** or **pretrained deep learning models**.  
 
-The system combines **computer vision**, **transfer learning**, and an **interactive UI** to offer a powerful tool for real-time plant disease classification.
+The system combines **computer vision** and an **interactive UI** to offer a powerful tool for real-time plant disease classification.
 
 ---
 
