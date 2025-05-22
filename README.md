@@ -20,9 +20,6 @@ The system combines **computer vision** and an **interactive UI** to offer a pow
   - EfficientNet  
   - DenseNet  
 
-- **Model Selection**  
-  Choose between custom or pretrained models for prediction.
-
 - **Grad-CAM Heatmap**  
   Visual explanation highlighting important regions in the leaf image.
 
@@ -63,7 +60,7 @@ The system combines **computer vision** and an **interactive UI** to offer a pow
 
 Make sure you have the following installed:
 
-- Python >= 3.9  
+- Python >= 3.1 
 - pip
 
 **Install required Python libraries:**
@@ -78,10 +75,7 @@ pip install torch torchvision opencv-python matplotlib streamlit tqdm
 ### Train the Model:
 ```bash
 # Train the custom CNN
-python custom_cnn_train.py
-
-# Train pretrained models (ResNet, EfficientNet, DenseNet)
-python pretrained_model_train.py
+Training_CNN.ipynb
 ```
 
 ### Run the Streamlit App:
